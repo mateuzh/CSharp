@@ -1,0 +1,69 @@
+﻿namespace CSharp;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        /*double area = 0;
+        Console.WriteLine("--> Calcular a área de um Retângulo <--");
+        Console.Write("Digite a base do retângulo: ");
+        double b = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Digite a altura do retângulo: ");
+        double a = Convert.ToDouble(Console.ReadLine());
+
+        Convert.ToDouble(area = b * a);
+
+        Console.WriteLine("A área do retângulo é: " + area);
+
+        double dolar = 5.17;
+        double euro = 6.14;
+        double PesoArgentino = 0.05;
+
+        Console.WriteLine("\n--> Conversão Monetária <--");
+        Console.Write("Informe o valor em Real: R$");
+        double real = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("U$" + (real / dolar));
+        Console.WriteLine("£" + (real / euro));
+        Console.WriteLine("$" + (real / PesoArgentino));
+
+        Console.WriteLine("\n--> Qual o valor maior <--");
+        Console.Write("Informe um valor: ");
+        int valor1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Informe outro valor: ");
+        int valor2 = Convert.ToInt32(Console.ReadLine());
+
+        int maior; 
+        int menor;
+        if(valor1 == valor2){
+            Console.WriteLine("Valores iguais!");
+            maior = valor1;
+            menor = valor2;
+        }
+        else if(valor1 > valor2){
+            maior = valor1;
+            menor = valor2;
+        }else{
+            maior = valor2;
+            menor = valor1;
+        }
+
+        Console.WriteLine("\n--> Julgando sua idade <--");
+        Console.Write("Informe a sua idade: ");
+        int idade = Convert.ToInt32(Console.ReadLine());
+        if(idade <= 13){
+            Console.WriteLine("Criança(o)!");
+        }else if(idade > 13 && idade <= 18){
+            Console.WriteLine("Adolescente(o)!");
+        }else if(idade > 18 && idade <= 60){
+            Console.WriteLine("Adulto(a)!");
+        }else{
+            Console.WriteLine("Idoso(a)!");
+        }
+        */
+
+        Console.WriteLine("\n--> Sequência Fibonacci <--");
+        Console.Write("Ver até qual posição da Sequência Fibonacci: ");
+        int pos = Convert.ToInt32(Console.ReadLine());
+        Console.Write("0, 1, ");
+    }
+}
