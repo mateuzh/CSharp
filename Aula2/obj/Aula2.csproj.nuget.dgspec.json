@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mateu\\OneDrive\\Documentos\\GitHub\\CSharp\\Aula2\\Aula2.csproj": {}
+    "C:\\Users\\mateu\\OneDrive\\Documentos\\GitHub\\CSharp\\Aula2\\Aula2.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mateu\\OneDrive\\Documentos\\GitHub\\CSharp\\Aula2\\Aula2.csproj": {
+    "C:\\Users\\mateu\\OneDrive\\Documentos\\GitHub\\CSharp\\Aula2\\Aula2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mateu\\OneDrive\\Documentos\\GitHub\\CSharp\\Aula2\\Aula2.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Documentos\\GitHub\\CSharp\\Aula2\\Aula2.csproj",
         "projectName": "Aula2",
-        "projectPath": "c:\\Users\\mateu\\OneDrive\\Documentos\\GitHub\\CSharp\\Aula2\\Aula2.csproj",
+        "projectPath": "C:\\Users\\mateu\\OneDrive\\Documentos\\GitHub\\CSharp\\Aula2\\Aula2.csproj",
         "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mateu\\OneDrive\\Documentos\\GitHub\\CSharp\\Aula2\\obj\\",
+        "outputPath": "C:\\Users\\mateu\\OneDrive\\Documentos\\GitHub\\CSharp\\Aula2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

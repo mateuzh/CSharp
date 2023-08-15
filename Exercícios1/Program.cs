@@ -1,5 +1,9 @@
 ﻿namespace CSharp;
 
+class Calculadora{
+    static 
+}
+
 class Program
 {
     static void Main(string[] args)
@@ -62,8 +66,18 @@ class Program
         */
 
         Console.WriteLine("\n--> Sequência Fibonacci <--");
+        int pos;
+        int fi , f1 = 1, f2 = 2;
         Console.Write("Ver até qual posição da Sequência Fibonacci: ");
-        int pos = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Informe até qual sequência: ");
+        pos = Convert.ToInt32(Console.ReadLine());
         Console.Write("0, 1, ");
+        for(int i = 0; i < pos-2; i++){
+            fi = f1;
+            Console.Write(fi + ", ");
+            fi = f1 + f2;
+            f1 = f2;
+            f2 = fi;
+        }
     }
 }
