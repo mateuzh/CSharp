@@ -1,24 +1,30 @@
 ﻿namespace CSharp;
 
 class Calculadora{
-    static 
+    
+    public static float calcularArea(float baze, float altura)
+    {
+        return baze * altura;
+    }
 }
 
 class Program
 {
     static void Main(string[] args)
     {
-        /*double area = 0;
+        
         Console.WriteLine("--> Calcular a área de um Retângulo <--");
         Console.Write("Digite a base do retângulo: ");
-        double b = Convert.ToDouble(Console.ReadLine());
+        float baze = Convert.ToSingle(Console.ReadLine());
         Console.Write("Digite a altura do retângulo: ");
-        double a = Convert.ToDouble(Console.ReadLine());
+        float altura = Convert.ToSingle(Console.ReadLine());
 
-        Convert.ToDouble(area = b * a);
+        float area = Calculadora.calcularArea(baze, altura);
+        
+        Console.Write("A área do retângulo é: " + area);
 
-        Console.WriteLine("A área do retângulo é: " + area);
 
+        /*
         double dolar = 5.17;
         double euro = 6.14;
         double PesoArgentino = 0.05;
@@ -68,7 +74,7 @@ class Program
         Console.WriteLine("\n--> Sequência Fibonacci <--");
         int pos;
         int fi , f1 = 1, f2 = 2;
-        Console.Write("Ver até qual posição da Sequência Fibonacci: ");
+        Console.WriteLine("Ver até qual posição da Sequência Fibonacci: ");
         Console.Write("Informe até qual sequência: ");
         pos = Convert.ToInt32(Console.ReadLine());
         Console.Write("0, 1, ");
