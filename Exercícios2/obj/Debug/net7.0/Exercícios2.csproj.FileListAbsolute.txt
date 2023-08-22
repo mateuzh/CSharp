@@ -1,0 +1,15 @@
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\bin\Debug\net7.0\Exercícios2.exe
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\bin\Debug\net7.0\Exercícios2.deps.json
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\bin\Debug\net7.0\Exercícios2.runtimeconfig.json
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\bin\Debug\net7.0\Exercícios2.dll
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\bin\Debug\net7.0\Exercícios2.pdb
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\obj\Debug\net7.0\Exercícios2.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\obj\Debug\net7.0\Exercícios2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\obj\Debug\net7.0\Exercícios2.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\obj\Debug\net7.0\Exercícios2.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\obj\Debug\net7.0\Exercícios2.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\obj\Debug\net7.0\Exercícios2.dll
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\obj\Debug\net7.0\refint\Exercícios2.dll
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\obj\Debug\net7.0\Exercícios2.pdb
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\obj\Debug\net7.0\Exercícios2.genruntimeconfig.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Exercícios2\obj\Debug\net7.0\ref\Exercícios2.dll
