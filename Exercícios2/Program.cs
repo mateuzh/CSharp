@@ -6,7 +6,7 @@ class Program
     {
         double[] arrayNumbers = new double[5];
         String user;
-        double soma = 0, media, mediana = 0, maxCount = 0, moda = 0, maisAparece = 0;
+        double soma = 0, media, mediana = 0, maxCount = 0, moda = 0;
 
 
         for (int i = 0; i < arrayNumbers.Length; i++)

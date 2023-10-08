@@ -1,0 +1,15 @@
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\bin\Debug\net7.0\Trabalho1SuporteAoCliente.exe
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\bin\Debug\net7.0\Trabalho1SuporteAoCliente.deps.json
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\bin\Debug\net7.0\Trabalho1SuporteAoCliente.runtimeconfig.json
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\bin\Debug\net7.0\Trabalho1SuporteAoCliente.dll
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\bin\Debug\net7.0\Trabalho1SuporteAoCliente.pdb
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\obj\Debug\net7.0\Trabalho1SuporteAoCliente.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\obj\Debug\net7.0\Trabalho1SuporteAoCliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\obj\Debug\net7.0\Trabalho1SuporteAoCliente.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\obj\Debug\net7.0\Trabalho1SuporteAoCliente.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\obj\Debug\net7.0\Trabalho1SuporteAoCliente.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\obj\Debug\net7.0\Trabalho1SuporteAoCliente.dll
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\obj\Debug\net7.0\refint\Trabalho1SuporteAoCliente.dll
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\obj\Debug\net7.0\Trabalho1SuporteAoCliente.pdb
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\obj\Debug\net7.0\Trabalho1SuporteAoCliente.genruntimeconfig.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Trabalho1SuporteAoCliente\obj\Debug\net7.0\ref\Trabalho1SuporteAoCliente.dll

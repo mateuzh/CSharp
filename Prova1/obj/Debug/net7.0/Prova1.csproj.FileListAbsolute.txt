@@ -1,0 +1,15 @@
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\bin\Debug\net7.0\Prova1.exe
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\bin\Debug\net7.0\Prova1.deps.json
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\bin\Debug\net7.0\Prova1.runtimeconfig.json
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\bin\Debug\net7.0\Prova1.dll
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\bin\Debug\net7.0\Prova1.pdb
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\obj\Debug\net7.0\Prova1.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\obj\Debug\net7.0\Prova1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\obj\Debug\net7.0\Prova1.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\obj\Debug\net7.0\Prova1.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\obj\Debug\net7.0\Prova1.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\obj\Debug\net7.0\Prova1.dll
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\obj\Debug\net7.0\refint\Prova1.dll
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\obj\Debug\net7.0\Prova1.pdb
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\obj\Debug\net7.0\Prova1.genruntimeconfig.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\Prova1\obj\Debug\net7.0\ref\Prova1.dll

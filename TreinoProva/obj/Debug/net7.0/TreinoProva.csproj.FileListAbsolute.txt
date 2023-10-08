@@ -1,0 +1,15 @@
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\bin\Debug\net7.0\TreinoProva.exe
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\bin\Debug\net7.0\TreinoProva.deps.json
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\bin\Debug\net7.0\TreinoProva.runtimeconfig.json
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\bin\Debug\net7.0\TreinoProva.dll
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\bin\Debug\net7.0\TreinoProva.pdb
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\obj\Debug\net7.0\TreinoProva.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\obj\Debug\net7.0\TreinoProva.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\obj\Debug\net7.0\TreinoProva.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\obj\Debug\net7.0\TreinoProva.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\obj\Debug\net7.0\TreinoProva.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\obj\Debug\net7.0\TreinoProva.dll
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\obj\Debug\net7.0\refint\TreinoProva.dll
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\obj\Debug\net7.0\TreinoProva.pdb
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\obj\Debug\net7.0\TreinoProva.genruntimeconfig.cache
+C:\Users\mateu\OneDrive\Documentos\GitHub\CSharp\TreinoProva\obj\Debug\net7.0\ref\TreinoProva.dll
