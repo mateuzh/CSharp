@@ -1,14 +1,7 @@
-//VERSAO WEBAPI COM DATABASE
-
-using System;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace trabalho1
 {
-	
 	class Database : DbContext
 	{
 		public Database(DbContextOptions options) : base(options)
@@ -105,8 +98,8 @@ namespace trabalho1
 				return "Agente adicionado com sucesso!";
 			});
 			
-			//atualizar usuario
-			app.MapPost("/update/{id}", (Database Database, SupportAgent updatedAgent, int id) =>
+			//atualizar agente
+			app.MapPost("/updateAgent/{id}", (Database Database, SupportAgent updatedAgent, int id) =>
 			{
                 if(updatedAgent.Id.Equals(false) || updatedAgent.Name == null || updatedAgent.Email == null || updatedAgent.Cellphone.Equals(false))
                 {
@@ -120,8 +113,8 @@ namespace trabalho1
 				return "Agente atualizado com sucesso!";
 			});
 						
-			//deletar usuario
-			app.MapPost("/delete/{id}", (Database Database, int id) =>
+			//deletar agente
+			app.MapPost("/deleteAgent/{id}", (Database Database, int id) =>
 			{
                 if(Database.Agents.Find(id) == null)
                 {
@@ -192,7 +185,7 @@ namespace trabalho1
 			});
 						
 			//encerrar chamado
-			app.MapPost("/closeTicket/{id}", (Database Database, int id) =>
+			app.MapPost("/closeTicket/{id}", (Database Database, ServiceRequest updatedTask, int id) =>
 			{
                 if(Database.ServicesRequest.Find(id) == null)
                 {
@@ -200,6 +193,7 @@ namespace trabalho1
                 }
 				var serviceRequest = Database.ServicesRequest.Find(id);
 				serviceRequest.CloseTime = DateTime.Now;
+                serviceRequest.motivoFechamento = updatedTask.motivoFechamento;
 				Database.SaveChanges();
 				return "Chamado encerrado com sucesso!";
 			});

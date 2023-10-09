@@ -35,6 +35,10 @@ namespace ClientSupport.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("motivoFechamento")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
 
                     b.ToTable("ServicesRequest");
