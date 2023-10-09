@@ -51,6 +51,10 @@ namespace trabalho1
 			//atualizar usuario
 			app.MapPost("/updateUser/{id}", (Database Database, User updatedUser, int id) =>
 			{
+                if(updatedUser.Id.Equals(false) || updatedUser.Name == null || updatedUser.Email == null)
+                {
+                    return "Houve algum erro. Os campos Id, Nome ou E-mail não podem estar vazios!";
+                }
 				var user = Database.Users.Find(id);
 				user!.Name = updatedUser.Name;
 				user.Email = updatedUser.Email;
@@ -62,6 +66,10 @@ namespace trabalho1
 			//deletar usuario
 			app.MapPost("/deleteUser/{id}", (Database Database, int id) =>
 			{
+                if(Database.Users.Find(id) == null)
+                {
+                    return "Usuário não localizado com o id: " + id;
+                }
 				var usuario = Database.Users.Find(id);
 				Database.Remove(usuario);
 				Database.SaveChanges();
@@ -133,7 +141,7 @@ namespace trabalho1
 				return Database.ServicesRequest.ToList();
 			});
 
-            //listar todos os tickets
+            //listar todos os tickets fechados
 			app.MapGet("/closedTickets", (Database Database) => 
             {
                 var tickets = Database.ServicesRequest.ToList();
@@ -146,6 +154,21 @@ namespace trabalho1
                     }
                 }
                 return closedTickets;
+			});
+
+            //listar todos os tickets fechados
+			app.MapGet("/openedTickets", (Database Database) => 
+            {
+                var tickets = Database.ServicesRequest.ToList();
+                var openedTickets = new List<ServiceRequest>();
+                foreach (var t in tickets)
+                {
+                    if(t.CloseTime.Year == 0001)
+                    {
+                        openedTickets.Add(t);
+                    }
+                }
+                return openedTickets;
 			});
 			
 			//listar ticket especifico (por id)
@@ -168,12 +191,20 @@ namespace trabalho1
                 serviceRequest.OpeningTime = DateTime.Now;
 				Database.ServicesRequest.Add(serviceRequest);
 				Database.SaveChanges();
-				return "Chamado aberto com sucesso! Número: " + serviceRequest.Id;
+				return "Chamado aberto com sucesso! \nNúmero: " + serviceRequest.Id;
 			});
 			
 			//atualizar agente do chamado
-			app.MapPost("/reatribuirChamado/{id}", (Database Database, ServiceRequest updatedTask, int id) =>
+			app.MapPost("/reassignTicket/{id}", (Database Database, ServiceRequest updatedTask, int id) =>
 			{
+                if(Database.ServicesRequest.Find(id).CloseTime.Year != 0001)
+                {
+                    return "Chamados encerrados não podem ser alterados!";
+                }
+                if(Database.ServicesRequest.Find(id) == null)
+                {
+                    return "Chamado " + id + " não localizado!";
+                }
                 if(updatedTask.AgentId == 0 || updatedTask.AgentId == null)
                 {
                     return "Não é possível alterar o agente para vazio.";
@@ -181,7 +212,7 @@ namespace trabalho1
 				var task = Database.ServicesRequest.Find(id);
 				task.AgentId = updatedTask.AgentId;
 				Database.SaveChanges();
-				return "Chamado " + updatedTask.Id + " atribuído ao agente " + Database.Agents.Find(updatedTask.AgentId).Name + " com sucesso!";
+				return "Chamado " + id + " atribuído ao agente " + Database.Agents.Find(updatedTask.AgentId).Name + " com sucesso!";
 			});
 						
 			//encerrar chamado

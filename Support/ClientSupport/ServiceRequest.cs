@@ -12,6 +12,7 @@ class ServiceRequest
         Id = id;
         UserId = userId;
         AgentId = agentId;
+        motivoFechamento = "";
         OpeningTime = openingTime;
     }
 }
