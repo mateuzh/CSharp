@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Front end</title>
+
+    <script>
+        function submit()
+        {
+            var url = 'http://localhost:5137'
+
+            const nome = document.getElementById('nome').value
+            const nascimento = document.getElementById('nascimento').value
+            if(nome.trim().length == 0)
+            {
+                alert('Nome inválido!')
+                return false
+            }
+
+            if(nascimento.trim().length == 0)
+            {
+                alert('Você precisa selecionar uma data!')
+                return false
+            }
+
+            //construção de um json
+            let body = {
+                'nome' : nome,
+                'nascimento' : nascimento
+            }
+
+            //Classe para fazer requisições http
+            let request = new XMLHttpRequest()
+            request.open("POST", url + "/pessoa")
+
+            request.setRequestHeader('Accept', "application/json")
+            request.setRequestHeader('Content-type', 'application/json')
+
+            
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <input id="nome" type="text"/><br>
+        <input id="nascimento" type="date"/><br>
+        <button onclick="submit()">Submit</button>
+    </div>
+</body>
+</html>
