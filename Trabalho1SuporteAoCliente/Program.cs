@@ -1,5 +1,7 @@
 ﻿
 
+using System;
+
 namespace Trabalho1SuporteAoCliente;
 class MinhaBase : DbContext
 	{
